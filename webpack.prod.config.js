@@ -10,7 +10,7 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var fs = require('fs');
 
 // config.output.publicPath = config.filePath;
-let prefix = '/iview-alipay-docs';
+let prefix = '/iview-alipay-docs/dist/';
 
 config.output.publicPath = prefix || '/dist/';
 config.output.filename = '[name].[hash].js';                 // 带hash值的入口js名称
