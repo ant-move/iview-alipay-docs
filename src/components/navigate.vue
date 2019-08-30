@@ -3,12 +3,6 @@
 </style>
 <template>
     <div class="navigate">
-        <!--<div class="asd" @click="handleAd" v-if="lang === 'zh-CN'">-->
-            <!--<div class="asd-main">-->
-                <!--<img src="../images/ad-juejin.jpg" style="border-radius: 6px">-->
-                <!--<ad-send></ad-send>-->
-            <!--</div>-->
-        <!--</div>-->
         <Menu width="auto" :active-name="activeKey" @on-select="handleSelect" v-if="type === 'component'">
             <Menu-item v-for="item in navigate.beforeComponents" :key="item.path" :name="item.path">
                 <template v-if="item.title !== '更新日志'">
