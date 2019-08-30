@@ -1,2 +1,3 @@
-# iview Weapp Doc
-Doc of iView Weapp
+# iview Aliapp Doc
+
+Doc of iView Aliapp
