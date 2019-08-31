@@ -28,7 +28,7 @@ const RouterConfig = {
     routes: Routers
 };
 if (Env != 'local') {
-    RouterConfig.mode = 'history';
+    // RouterConfig.mode = 'history';
 }
 const router = new VueRouter(RouterConfig);
 
