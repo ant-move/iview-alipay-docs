@@ -4,7 +4,7 @@
 import Env from './env';
 
 let config = {
-    prefix: '/iview-alipay-docs',
+    prefix: '', // '/iview-alipay-docs',
     env: Env,
     // filePath: 'https://file.iviewui.com/file/',
     filePath: 'https://ant-move.github.io/iview-alipay-docs/',
