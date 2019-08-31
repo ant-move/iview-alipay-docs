@@ -42,7 +42,7 @@
     export default {
         methods: {
             handleStart () {
-                this.$router.push('/iview-alipay-docs/docs/guide/start');
+                this.$router.push('/docs/guide/start');
             },
             handleGitHub () {
                 window.open('https://github.com/ant-move/mini-iview');
