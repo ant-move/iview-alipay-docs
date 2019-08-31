@@ -69,7 +69,7 @@
                     </thead>
                     <tbody>
                     <tr>
-                        <td>bind:change</td>
+                        <td>onChange</td>
                         <td>当绑定值变化时触发的事件</td>
                         <td>{ value, type }</td>
                     </tr>

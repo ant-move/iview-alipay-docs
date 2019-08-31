@@ -69,7 +69,7 @@
                     </thead>
                     <tbody>
                     <tr>
-                        <td>bind:change</td>
+                        <td>onChange</td>
                         <td>切换页码时触发，返回 prev 或 next</td>
                         <td>{ type }</td>
                     </tr>

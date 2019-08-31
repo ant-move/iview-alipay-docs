@@ -8,13 +8,13 @@ code.import = `
 code.usage = `
 <i-panel title="基础用法">
     <view style="padding: 16px">
-        <i-input-number value="{{ value1 }}" min="0" max="100" bindchange="handleChange1" />
+        <i-input-number value="{{ value1 }}" min="0" max="100" onChange="handleChange1" />
     </view>
 </i-panel>
 
 <i-panel title="小数">
     <view style="padding: 16px">
-        <i-input-number value="{{ value2 }}" min="0" max="100" step="0.2" bindchange="handleChange2" />
+        <i-input-number value="{{ value2 }}" min="0" max="100" step="0.2" onChange="handleChange2" />
     </view>
 </i-panel>
 `;

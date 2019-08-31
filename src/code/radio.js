@@ -8,20 +8,20 @@ code.import = `
 `;
 code.usage = `
 <i-panel title="group-水果">
-    <i-radio-group current="{{current}}" bindchange="handleFruitChange">
-        <i-radio wx:for="{{fruit}}" position="{{position}}" wx:key="{{item.id}}" value="{{item.name}}">
+    <i-radio-group current="{{current}}" onChange="handleFruitChange">
+        <i-radio a:for="{{fruit}}" position="{{position}}" a:key="{{item.id}}" value="{{item.name}}">
         </i-radio>
     </i-radio-group>
 </i-panel>
 
-<i-button bindclick="handleClick" type="ghost">切换单选框位置</i-button>
+<i-button onClick="handleClick" type="ghost">切换单选框位置</i-button>
 
 <i-panel title="radio-动物">
-    <i-radio value="{{animal}}" disabled="{{disabled}}" checked="{{checked}}" bindchange="handleAnimalChange">
+    <i-radio value="{{animal}}" disabled="{{disabled}}" checked="{{checked}}" onChange="handleAnimalChange">
     </i-radio>
 </i-panel>
 
-<i-button bindclick="handleDisabled" type="ghost">切换disabled状态</i-button>
+<i-button onClick="handleDisabled" type="ghost">切换disabled状态</i-button>
 `;
 
 code.js = `

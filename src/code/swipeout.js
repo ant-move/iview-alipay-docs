@@ -30,7 +30,7 @@ code.usage = `
             </i-cell>
         </view>
     </i-swipeout>
-    <i-swipeout  i-class="i-swipeout-demo-item" actions="{{actions}}" toggle="{{toggle2}}" unclosable="{{true}}" bindchange="handlerCloseButton">
+    <i-swipeout  i-class="i-swipeout-demo-item" actions="{{actions}}" toggle="{{toggle2}}" unclosable="{{true}}" onChange="handlerCloseButton">
         <view slot="content">
             <i-cell 
                 i-class="i-cell-padding" 
@@ -74,7 +74,7 @@ code.usage = `
 
 
     <view class="i-swipeout-demo-title">和actionsheet联合使用</view>
-    <i-action-sheet visible="{{ visible2 }}" actions="{{ actions2 }}" show-cancel bind:cancel="handleCancel2" bind:click="handleClickItem2" mask-closable="{{ false }}">
+    <i-action-sheet visible="{{ visible2 }}" actions="{{ actions2 }}" show-cancel onCancel="handleCancel2" onClick="handleClickItem2" mask-closable="{{ false }}">
         <view slot="header" style="padding: 16px">
             <view style="color: #444;font-size: 16px">确定吗？</view>
             <text>删除后无法恢复哦</text>
@@ -91,9 +91,9 @@ code.usage = `
            </view>
         </view>
         <view slot="button" class="i-swipeout-demo-button-group" style="background:#2db7f5;">
-            <view class="i-swipeout-demo-button" style="width:60px" bindtap="actionsTap"> <i-icon size="32" type="like_fill"></i-icon></view>
-            <view class="i-swipeout-demo-button" style="width:60px" bindtap="actionsTap"><i-icon size="32" type="share_fill"></i-icon></view>
-            <view class="i-swipeout-demo-button" style="width:60px" bindtap="actionsTap"><i-icon size="32" type="delete_fill"></i-icon></view>
+            <view class="i-swipeout-demo-button" style="width:60px" onTap="actionsTap"> <i-icon size="32" type="like_fill"></i-icon></view>
+            <view class="i-swipeout-demo-button" style="width:60px" onTap="actionsTap"><i-icon size="32" type="share_fill"></i-icon></view>
+            <view class="i-swipeout-demo-button" style="width:60px" onTap="actionsTap"><i-icon size="32" type="delete_fill"></i-icon></view>
         </view>
     </i-swipeout>
 

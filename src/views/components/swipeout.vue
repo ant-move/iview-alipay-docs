@@ -69,7 +69,7 @@
                     </thead>
                     <tbody>
                     <tr>
-                        <td>bind:change</td>
+                        <td>onChange</td>
                         <td>点击菜单项时触发</td>
                         <td>index</td>
                     </tr>

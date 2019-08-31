@@ -15,8 +15,8 @@ code.usage = `
 </view>
 <view class="progress-item">
     <i-progress percent="{{ percent }}" status="{{ status }}"></i-progress>
-    <i-button bindclick="handleAdd" type="ghost">增加</i-button>
-    <i-button bindclick="handleReduce" type="ghost">减少</i-button>
+    <i-button onClick="handleAdd" type="ghost">增加</i-button>
+    <i-button onClick="handleReduce" type="ghost">减少</i-button>
 </view>
 `;
 

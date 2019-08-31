@@ -6,14 +6,14 @@ code.import = `
 }
 `;
 code.usage = `
-<i-button type="ghost" bind:click="handleText">只显示文本</i-button>
-<i-button type="ghost" bind:click="handleSuccess">成功</i-button>
-<i-button type="ghost" bind:click="handleWarning">警告</i-button>
-<i-button type="ghost" bind:click="handleError">错误</i-button>
-<i-button type="ghost" bind:click="handleLoading">Loading</i-button>
-<i-button type="ghost" bind:click="handleIcon">使用图标</i-button>
-<i-button type="ghost" bind:click="handleImage">使用自定义图片</i-button>
-<i-button type="ghost" bind:click="handleMask">无遮罩层</i-button>
+<i-button type="ghost" onClick="handleText">只显示文本</i-button>
+<i-button type="ghost" onClick="handleSuccess">成功</i-button>
+<i-button type="ghost" onClick="handleWarning">警告</i-button>
+<i-button type="ghost" onClick="handleError">错误</i-button>
+<i-button type="ghost" onClick="handleLoading">Loading</i-button>
+<i-button type="ghost" onClick="handleIcon">使用图标</i-button>
+<i-button type="ghost" onClick="handleImage">使用自定义图片</i-button>
+<i-button type="ghost" onClick="handleMask">无遮罩层</i-button>
 
 <i-toast id="toast" />
 `;

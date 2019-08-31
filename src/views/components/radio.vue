@@ -51,7 +51,7 @@
                     </thead>
                     <tbody>
                     <tr>
-                        <td>bind:change</td>
+                        <td>onChange</td>
                         <td>切换选项时触发</td>
                         <td>current</td>
                     </tr>
@@ -117,7 +117,7 @@
                     </thead>
                     <tbody>
                     <tr>
-                        <td>bind:change</td>
+                        <td>onChange</td>
                         <td>切换选项时触发</td>
                         <td>current</td>
                     </tr>

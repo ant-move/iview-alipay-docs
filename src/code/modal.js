@@ -7,14 +7,14 @@ code.import = `
 `;
 code.usage = `
 <view style="margin-top: 100px;">
-    <i-button bind:click="handleOpen1">普通对话框</i-button>
-    <i-button bind:click="handleOpen2">无标题对话框</i-button>
-    <i-button bind:click="handleOpen3">自定义按钮对话框</i-button>
-    <i-button bind:click="handleOpen4">纵向按钮，自定义颜色及图标</i-button>
-    <i-button bind:click="handleOpen5">异步操作</i-button>
+    <i-button onClick="handleOpen1">普通对话框</i-button>
+    <i-button onClick="handleOpen2">无标题对话框</i-button>
+    <i-button onClick="handleOpen3">自定义按钮对话框</i-button>
+    <i-button onClick="handleOpen4">纵向按钮，自定义颜色及图标</i-button>
+    <i-button onClick="handleOpen5">异步操作</i-button>
 </view>
 
-<i-modal title="标题" visible="{{ visible1 }}" bind:ok="handleClose1" bind:cancel="handleClose1">
+<i-modal title="标题" visible="{{ visible1 }}" onOk="handleClose1" onCancel="handleClose1">
     <view>一些文本</view>
     <view>一些文本</view>
     <view>一些文本</view>
@@ -26,19 +26,19 @@ code.usage = `
     <view>一些文本</view>
 </i-modal>
 
-<i-modal visible="{{ visible2 }}" bind:ok="handleClose2" bind:cancel="handleClose2">
+<i-modal visible="{{ visible2 }}" onOk="handleClose2" onCancel="handleClose2">
     <view>这是一个无标题的对话框</view>
 </i-modal>
 
-<i-modal title="支付" visible="{{ visible3 }}" actions="{{ actions3 }}" bind:click="handleClick3">
+<i-modal title="支付" visible="{{ visible3 }}" actions="{{ actions3 }}" onClick="handleClick3">
     <view>请选择支付方式</view>
 </i-modal>
 
-<i-modal title="纵向排列的按钮" visible="{{ visible4 }}" actions="{{ actions4 }}" action-mode="{{ vertical }}" bind:click="handleClick4">
+<i-modal title="纵向排列的按钮" visible="{{ visible4 }}" actions="{{ actions4 }}" action-mode="{{ vertical }}" onClick="handleClick4">
 
 </i-modal>
 
-<i-modal title="删除确认" visible="{{ visible5 }}" actions="{{ actions5 }}" bind:click="handleClick5">
+<i-modal title="删除确认" visible="{{ visible5 }}" actions="{{ actions5 }}" onClick="handleClick5">
     <view>删除后无法恢复哦</view>
 </i-modal>
 

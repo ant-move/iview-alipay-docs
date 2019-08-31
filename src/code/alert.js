@@ -62,10 +62,10 @@ code.usage = `
     An error prompt
     <view slot="desc">Content of prompt. Content of prompt.</view>
 </i-alert>
-<i-alert closable bind:close="handleClick">
+<i-alert closable onClose="handleClick">
     An info prompt
 </i-alert>
-<i-alert type="success" show-icon desc closable bind:close="handleClick">
+<i-alert type="success" show-icon desc closable onClose="handleClick">
     An success prompt
     <view slot="desc">Content of prompt. Content of prompt.</view>
 </i-alert>

@@ -63,7 +63,7 @@
                     </thead>
                     <tbody>
                     <tr>
-                        <td>bind:change</td>
+                        <td>onChange</td>
                         <td>切换标签时触发</td>
                         <td>{ key }</td>
                     </tr>

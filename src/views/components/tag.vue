@@ -76,7 +76,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>bind:change</td>
+                            <td>onChange</td>
                             <td>状态改变时触发</td>
                             <td>{ name, checked }</td>
                         </tr>

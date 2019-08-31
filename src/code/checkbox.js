@@ -8,20 +8,20 @@ code.import = `
 `;
 code.usage = `
 <i-panel title="group-水果">
-    <i-checkbox-group current="{{current}}" bindchange="handleFruitChange">
-        <i-checkbox wx:for="{{fruit}}" position="{{position}}" wx:key="{{item.id}}" value="{{item.name}}">
+    <i-checkbox-group current="{{current}}" onChange="handleFruitChange">
+        <i-checkbox a:for="{{fruit}}" position="{{position}}" a:key="{{item.id}}" value="{{item.name}}">
         </i-checkbox>
     </i-checkbox-group>
 </i-panel>
 
-<i-button bindclick="handleClick" type="ghost">切换复选框位置</i-button>
+<i-button onClick="handleClick" type="ghost">切换复选框位置</i-button>
 
 <i-panel title="checkbox-动物">
-    <i-checkbox value="{{animal}}" disabled="{{disabled}}" checked="{{checked}}" bindchange="handleAnimalChange">
+    <i-checkbox value="{{animal}}" disabled="{{disabled}}" checked="{{checked}}" onChange="handleAnimalChange">
     </i-checkbox>
 </i-panel>
 
-<i-button bindclick="handleDisabled" type="ghost">切换disabled状态</i-button>
+<i-button onClick="handleDisabled" type="ghost">切换disabled状态</i-button>
 `;
 
 code.js = `

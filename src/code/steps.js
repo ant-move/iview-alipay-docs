@@ -93,7 +93,7 @@ code.usage = `
         </view>
     </i-step>
 </i-steps>
-<i-button bindclick="handleClick">下一步</i-button>
+<i-button onClick="handleClick">下一步</i-button>
 
 垂直方向
 

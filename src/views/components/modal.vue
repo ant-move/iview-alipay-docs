@@ -87,17 +87,17 @@
                     </thead>
                     <tbody>
                     <tr>
-                        <td>bind:click</td>
+                        <td>onClick</td>
                         <td>点击某个按钮时触发，返回按钮所在 actions 中的索引</td>
                         <td>{ index }</td>
                     </tr>
                     <tr>
-                        <td>bind:ok</td>
+                        <td>onOk</td>
                         <td>点击确定按钮时触发</td>
                         <td>-</td>
                     </tr>
                     <tr>
-                        <td>bind:cancel</td>
+                        <td>onCancel</td>
                         <td>点击取消按钮时触发</td>
                         <td>-</td>
                     </tr>

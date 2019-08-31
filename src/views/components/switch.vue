@@ -69,7 +69,7 @@
                     </thead>
                     <tbody>
                     <tr>
-                        <td>bind:change</td>
+                        <td>onChange</td>
                         <td>开关变化时触发，返回当前的状态</td>
                         <td>{ value }</td>
                     </tr>

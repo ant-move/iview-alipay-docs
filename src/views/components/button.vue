@@ -139,27 +139,27 @@
                     </thead>
                     <tbody>
                     <tr>
-                        <td>bind:click</td>
+                        <td>onClick</td>
                         <td>按钮在可用状态被点击时触发</td>
                         <td>-</td>
                     </tr>
                     <tr>
-                        <td>bind:getuserinfo</td>
+                        <td>onGetuserinfo</td>
                         <td>用户点击该按钮时，会返回获取到的用户信息，从返回参数的detail中获取到的值同wx.getUserInfo</td>
                         <td>-</td>
                     </tr>
                     <tr>
-                        <td>bind:contact</td>
+                        <td>onContact</td>
                         <td>客服消息回调</td>
                         <td>-</td>
                     </tr>
                     <tr>
-                        <td>bind:getphonenumber</td>
+                        <td>onGetphonenumber</td>
                         <td>获取用户手机号回调</td>
                         <td>-</td>
                     </tr>
                     <tr>
-                        <td>bind:error</td>
+                        <td>onError</td>
                         <td>当使用开放能力时，发生错误的回调</td>
                         <td>-</td>
                     </tr>

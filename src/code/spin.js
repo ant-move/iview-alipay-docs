@@ -57,11 +57,11 @@ code.usage = `
         <view>总为浮云能蔽日，长安不见使人愁。</view>
     </view>
 
-    <i-spin size="large" fix wx:if="{{ spinShow }}"></i-spin>
+    <i-spin size="large" fix a:if="{{ spinShow }}"></i-spin>
 </view>
 
 <view class="switch">
-    <i-switch value="{{ switch }}" bindchange="onSwitchChange"></i-switch>
+    <i-switch value="{{ switch }}" onChange="onSwitchChange"></i-switch>
 </view>
 `;
 

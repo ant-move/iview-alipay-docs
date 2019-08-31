@@ -67,7 +67,7 @@
                     </thead>
                     <tbody>
                     <tr>
-                        <td>bind:callback</td>
+                        <td>onCallback</td>
                         <td>倒计时结束回调</td>
                         <td>-</td>
                     </tr>

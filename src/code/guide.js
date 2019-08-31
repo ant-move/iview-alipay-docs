@@ -7,7 +7,7 @@ code.button = `
 `;
 
 code.wxml = `
-<i-button type="primary" bind:click="handleClick">这是一个按钮</i-button>
+<i-button type="primary" onClick="handleClick">这是一个按钮</i-button>
 `;
 
 code.install = `

@@ -104,7 +104,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>bind:click</td>
+                            <td>onClick</td>
                             <td>点击 cell 时触发，onlyTapFooter 为 true 时点击 footer 区域触发</td>
                             <td>-</td>
                         </tr>

@@ -57,7 +57,7 @@
                     </thead>
                     <tbody>
                     <tr>
-                        <td>bind:change</td>
+                        <td>onChange</td>
                         <td>选择项改变时触发，</td>
                         <td>{index, current}</td>
                     </tr>

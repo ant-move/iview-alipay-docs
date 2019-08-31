@@ -9,7 +9,7 @@ code.import = `
 code.usage = `
 基本用法
 
-<i-tabs current="{{ current }}" bindchange="handleChange">
+<i-tabs current="{{ current }}" onChange="handleChange">
     <i-tab key="tab1" title="选项1"></i-tab>
     <i-tab key="tab2" title="选项2"></i-tab>
     <i-tab key="tab3" title="选项3"></i-tab>
@@ -17,7 +17,7 @@ code.usage = `
 
 自定义主题色
 
-<i-tabs current="{{ current }}" color="#f759ab" bindchange="handleChange">
+<i-tabs current="{{ current }}" color="#f759ab" onChange="handleChange">
     <i-tab key="tab1" title="选项1"></i-tab>
     <i-tab key="tab2" title="选项2"></i-tab>
     <i-tab key="tab3" title="选项3"></i-tab>
@@ -25,7 +25,7 @@ code.usage = `
 
 徽标
 
-<i-tabs current="{{ current }}" bindchange="handleChange">
+<i-tabs current="{{ current }}" onChange="handleChange">
     <i-tab key="tab1" title="选项1" count="3"></i-tab>
     <i-tab key="tab2" title="选项2"></i-tab>
     <i-tab key="tab3" title="选项3" dot></i-tab>
@@ -33,7 +33,7 @@ code.usage = `
 
 滚动
 
-<i-tabs current="{{ current_scroll }}" scroll bindchange="handleChangeScroll">
+<i-tabs current="{{ current_scroll }}" scroll onChange="handleChangeScroll">
     <i-tab key="tab1" title="选项1"></i-tab>
     <i-tab key="tab2" title="选项2"></i-tab>
     <i-tab key="tab3" title="选项3"></i-tab>

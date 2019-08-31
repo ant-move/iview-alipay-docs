@@ -6,11 +6,11 @@ code.import = `
 }
 `;
 code.usage = `
-<i-button type="ghost" bind:click="handleDefault">默认提醒</i-button>
-<i-button type="ghost" bind:click="handleSuccess">成功提醒</i-button>
-<i-button type="ghost" bind:click="handleWarning">警告提醒</i-button>
-<i-button type="ghost" bind:click="handleError">错误提醒</i-button>
-<i-button type="ghost" bind:click="handleDuration">自定义持续时间</i-button>
+<i-button type="ghost" onClick="handleDefault">默认提醒</i-button>
+<i-button type="ghost" onClick="handleSuccess">成功提醒</i-button>
+<i-button type="ghost" onClick="handleWarning">警告提醒</i-button>
+<i-button type="ghost" onClick="handleError">错误提醒</i-button>
+<i-button type="ghost" onClick="handleDuration">自定义持续时间</i-button>
 
 <i-message id="message" />
 `;

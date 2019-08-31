@@ -62,9 +62,9 @@ code.usage = `
 多个标签
 
 <i-tag 
-    wx:for="{{tags}}" 
-    wx:key="{{index}}"
-    bindchange="onChange" 
+    a:for="{{tags}}" 
+    a:key="{{index}}"
+    onChange="onChange" 
     checkable="{{true}}" 
     name="{{index}}" 
     color="{{item.color}}" 

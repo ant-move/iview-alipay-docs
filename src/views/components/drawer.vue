@@ -67,7 +67,7 @@
                     </thead>
                     <tbody>
                     <tr>
-                        <td>bind:close</td>
+                        <td>onClose</td>
                         <td>关闭时触发</td>
                         <td>-</td>
                     </tr>

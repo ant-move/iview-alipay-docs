@@ -8,18 +8,18 @@ code.import = `
 `;
 code.usage = `
 <view class="i-index-demo">
-    <i-index height="100%" bind:change="onChange">
+    <i-index height="100%" onChange="onChange">
         <i-index-item 
-            wx:for="{{ cities }}" 
-            wx:for-index="index" 
-            wx:key="{{index}}" 
-            wx:for-item="item" name="{{item.key}}">
+            a:for="{{ cities }}" 
+            a:for-index="index" 
+            a:key="{{index}}" 
+            a:for-item="item" name="{{item.key}}">
             <view 
                 class="i-index-demo-item" 
-                wx:for="{{item.list}}" 
-                wx:for-index="in" 
-                wx:key="{{in}}" 
-                wx:for-item="it">
+                a:for="{{item.list}}" 
+                a:for-index="in" 
+                a:key="{{in}}" 
+                a:for-item="it">
                 {{it.name}}
             </view>
         </i-index-item>

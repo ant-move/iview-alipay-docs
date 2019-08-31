@@ -9,7 +9,7 @@ code.usage = `
 <i-cell-group>
     <i-cell title="基本用法">
         <i-rate 
-            bind:change="onChange1" 
+            onChange="onChange1" 
             value="{{starIndex1}}">
         </i-rate>
     </i-cell>
@@ -21,21 +21,21 @@ code.usage = `
     </i-cell>
     <i-cell title="自定义星星大小">
         <i-rate 
-            bind:change="onChange2" 
+            onChange="onChange2" 
             value="{{starIndex2}}" 
             size="32">
         </i-rate>
     </i-cell>
     <i-cell title="自定义文字说明">
         <i-rate 
-            bind:change="onChange2" 
+            onChange="onChange2" 
             value="{{starIndex2}}">
             {{starIndex2}}星
         </i-rate>
     </i-cell>
      <i-cell title="手势touch选择星">
         <i-rate 
-            bind:change="onChange3" 
+            onChange="onChange3" 
             value="{{starIndex3}}">
             {{starIndex3}}星
         </i-rate>

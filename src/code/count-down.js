@@ -47,7 +47,7 @@ code.usage = `
     <text class="type-title">执行回调的倒计时：</text>
     <i-count-down
             target="{{targetTime2}}"
-            bindcallback="myLinsterner"
+            onCallback="myLinsterner"
             clear-timer="{{clearTimer}}"
     ></i-count-down>
     <text>倒计时状态：{{status}}</text>

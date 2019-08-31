@@ -75,7 +75,7 @@
                     </thead>
                     <tbody>
                     <tr>
-                        <td>bind:change</td>
+                        <td>onChange</td>
                         <td>点击评分时触发</td>
                         <td>{ index }</td>
                     </tr>
