@@ -58,8 +58,14 @@
       <div class="highlight highlight-text-html-basic">
         <pre>&lt;<span class="pl-ent">i-button</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>primary<span class="pl-pds">"</span></span> <span class="pl-e">onClick</span>=<span class="pl-s"><span class="pl-pds">"</span>handleClick<span class="pl-pds">"</span></span>&gt;这是一个按钮&lt;/<span class="pl-ent">i-button</span>&gt;</pre>
       </div>
+      <h3>预览</h3>
+      <p>
+          <img width="150px"  async src="../../images/iview/actionsheet.gif" alt=""/>
+          <img width="150px" async src="../../images/iview/drawer.gif" alt=""/>
+          <img width="150px" async src="../../images/iview/tabbar.gif" alt=""/>
+      </p>
       <h3>
-        预览
+        IDE 预览
       </h3>
       <p>下载本项目到本地，使用支付宝 IDE 打开 iview-alipay 即可预览。</p>
       <blockquote>
