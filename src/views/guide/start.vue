@@ -60,6 +60,9 @@
       </div>
       <h3>预览</h3>
       <p>
+        <img width='150px' src='https://cache.amap.com/ecology/tool/antmove/web/assets/iView-Aliapp.jpg'/>
+      </p>
+      <p>
           <img width="150px"  async src="../../images/iview/actionsheet.gif" alt=""/>
           <img width="150px" async src="../../images/iview/drawer.gif" alt=""/>
           <img width="150px" async src="../../images/iview/tabbar.gif" alt=""/>
