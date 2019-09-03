@@ -40,8 +40,8 @@
                             <template>
                                 <div style="margin-top: 20px"></div>
                                 <div class="article-qrcode">
-                                    <!-- <img src="../images/code.jpg">
-                                    <span>微信扫描体验</span> -->
+                                    <img src='https://cache.amap.com/ecology/tool/antmove/web/assets/iView-Aliapp.jpg'/>
+                                    
                                 </div>
                             </template>
                         </Affix>
