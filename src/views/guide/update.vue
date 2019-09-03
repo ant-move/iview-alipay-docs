@@ -25,6 +25,15 @@
         <article class="doc-update">
             <Timeline pending>
                 <Timeline-item>
+                    <Anchor title="1.0.1" h2></Anchor>
+                    <p>
+                        <code>2019-09-03</code>
+                    </p>
+                    <p>修复 index 索引组件索引失效问题</p>
+                    <p>修复 sticky 组件吸顶失效问题</p>
+                    
+                </Timeline-item>
+                <Timeline-item>
                     <Anchor title="1.0.0" h2></Anchor>
                     <p>
                         <code>2019-08-30</code>

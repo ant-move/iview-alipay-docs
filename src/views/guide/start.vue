@@ -15,15 +15,6 @@
         </p>
       </blockquote>
       <h2>
-       文档
-      </h2>
-      <p>
-        <a href="https://weapp.iviewui.com" rel="nofollow">微信版官方文档</a>
-      </p>
-      <blockquote>
-        <p>大部分组件都保留了原有的用法，只有一两个做了少许的改动。支付宝版本文档近期推出。</p>
-      </blockquote>
-      <h2>
         快速上手
       </h2>
         <br>
