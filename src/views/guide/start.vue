@@ -72,6 +72,12 @@
           >支付宝小程序自定义组件使用介绍</a>。
         </p>
       </blockquote>
+      <h2>联系</h2>
+      <p>
+        <img width="150px" src='https://ant-move.github.io/website/img/contact-dingding.jpg'/>
+                                    <img width="150px" src='https://cache.amap.com/ecology/tool/antmove/web/assets/02.JPG'/>
+                                    
+      </p>
       <h2>
         License
       </h2>

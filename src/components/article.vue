@@ -40,7 +40,7 @@
                             <template>
                                 <div style="margin-top: 20px"></div>
                                 <div class="article-qrcode">
-                                    <img src='https://cache.amap.com/ecology/tool/antmove/web/assets/iView-Aliapp.jpg'/>
+                                    <img width="150px" src='https://cache.amap.com/ecology/tool/antmove/web/assets/iView-Aliapp.jpg'/>
                                     
                                 </div>
                             </template>
